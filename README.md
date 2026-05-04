@@ -34,36 +34,33 @@ Beyond training, the project includes a **Streamlit-based GUI**, turning a compl
 
 ## 5. Execution Guide
 
-To run the PokéVision classifier and launch the interactive Pokedex interface, follow these three steps:
-
 ### Step 1: Activate the Environment
-Open your terminal and navigate to the project folder. Activate the virtual environment to ensure all dependencies are correctly loaded.
+
 ```bash
 cd "/Users/nangshweyeeoo/Documents/pokemon classifier"
 source venv/bin/activate
-
+```
 ### Step 2: Launch the Streamlit App
-After activating the virtual environment, run the following command to start the web server. We specify port `8888` to ensure compatibility and avoid port conflicts on macOS.
 
 ```bash
 python3 -m streamlit run app.py --server.port 8888
-
+```
 ### Step 3: Access the Interface & Test
-After the server starts, you can interact with the Pokedex GUI directly through your web browser.
 
-1. **Open Browser:** Launch Safari (or Google Chrome) and enter the following address in the URL bar:
+1. **Open your browser** (Safari or Chrome) and go to:  
    `http://127.0.0.1:8888`
 
-2. **Upload Image:** Click the **"Browse files"** button or simply drag and drop a Pokemon image (JPG/PNG/JPEG) into the upload box.
+2. **Upload an image:**  
+   Click **"Browse files"** or drag and drop a Pokémon image (JPG/PNG/JPEG).
 
-3. **Analyze Results:** * The application will display your uploaded image for confirmation.
-   * Under the **"Top-5 Predictions"** section, you will see the model's classification results along with their respective confidence percentage bars.
+3. **View results:**  
+   - The uploaded image will be displayed  
+   - The **Top-5 Predictions** section shows classification probabilities
 
-4. **Capture Proof:** Once the results are displayed, take a screenshot of the entire page and save it as `screenshot.png` in your project folder to ensure the image appears in this README.
+4. **Save proof:**  
+   Take a screenshot and save it as `screenshot.png` in the project folder.
 
-> 💡 **Pro Tip:** If you encounter a white screen initially, please wait 10-20 seconds. Deep learning models require a few moments to load into the system memory before the interface becomes active.
-
----
+> 💡 **Tip:** If the screen appears blank initially, wait **10–20 seconds** for the model to load.
 
 ## 6. Demo Preview
 
