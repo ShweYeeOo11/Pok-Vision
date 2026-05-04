@@ -69,7 +69,7 @@ To demonstrate the practical usability of the model, I have implemented an inter
 ### System in Action:
 The following screenshot shows the **PokéVision GUI** performing an inference on a Pokemon image. The system provides a clear visual of the uploaded subject along with its classification results.
 
-![GUI Screenshot](screenshot.png)
+![GUI Screenshot](pokemon.png)
 
 ### Key Features:
 * **Real-time Inference:** Rapidly identifies Pokemon species using optimized weights from Experiment 2.
