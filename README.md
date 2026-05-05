@@ -27,7 +27,7 @@ Beyond training, the project includes a **Streamlit-based GUI**, turning a compl
 > **Key Insight:** MobileNetV2 with Fine-Tuning (Exp 2) proved to be the most effective model for this dataset, achieving over 75% accuracy.
 
 ## 4. Technical Challenges & Insights
-* **Environment Conflicts:** Resolved the `externally-managed-environment` error on macOS by implementing a Virtual Environment (`venv`).
+
 * **Data Processing:** Managed 150 classes by ensuring consistent image resizing ($224 \times 224$) and normalization.
 * **Streamlit Optimization:** Fixed a Type Error in the progress bar by explicitly converting NumPy float32 values to standard Python floats.
 * **Hardware Efficiency:** Optimized model loading in the GUI to prevent browser "white-screen" hangs on MacBook.
@@ -56,11 +56,6 @@ python3 -m streamlit run app.py --server.port 8888
 3. **View results:**  
    - The uploaded image will be displayed  
    - The **Top-5 Predictions** section shows classification probabilities
-
-4. **Save proof:**  
-   Take a screenshot and save it as `screenshot.png` in the project folder.
-
-> 💡 **Tip:** If the screen appears blank initially, wait **10–20 seconds** for the model to load.
 
 ## 6. Demo Preview
 
